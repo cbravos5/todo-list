@@ -6,6 +6,7 @@
 
 body {
   background: palevioletred !important;
+  overflow-y: scroll;
 }
 
 .collapse-content {
