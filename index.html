@@ -58,76 +58,42 @@
               name="deadline"
             />
           </div>
-          <button type="submit" class="btn w-25 btn-success material-icons">add_circle</button>
+          <button type="submit" class="btn w-25 btn-success material-icons">
+            add_circle
+          </button>
         </form>
       </div>
       <div class="row">
-        <div class="list col-lg-5 col-11 mx-auto" >
+        <div class="list col-lg-5 col-11 mx-auto">
           <h3>
-            <hr class="bg-warning">
-              Pending 
-            <hr class="bg-warning">
+            <hr class="bg-warning" />
+            Pending
+            <hr class="bg-warning" />
           </h3>
         </div>
-        <div class="completed-lg list col-lg-5 col-11 mx-auto" >
+        <div class="completed-lg list col-lg-5 col-11 mx-auto">
           <h3>
-            <hr class="bg-success">
-             Completed 
-            <hr class="bg-success">
+            <hr class="bg-success" />
+            Completed
+            <hr class="bg-success" />
           </h3>
         </div>
       </div>
       <div class="row">
-        <div data-js="todo-pending" class="list col-lg-5 col-11 mx-auto">
-          <div class="my-2">
-            <div class="todo-box todo-pending">
-              <h3 class="py-2">Teste Sparta</h3>
-              <div class="btn-group w-50 mb-1" role="group">
-                <button
-                  data-js="collapse-desc-btn"
-                  type="button"
-                  class="material-icons btn btn-secondary"
-                >
-                  remove_red_eye
-                </button>
-                <button
-                  data-js="completed-btn"
-                  type="button"
-                  class="material-icons btn btn-success text-light"
-                >
-                  check_circle
-                </button>
-                <button
-                  data-js="delete-btn"
-                  type="button"
-                  class="material-icons btn btn-danger"
-                >
-                  delete
-                </button>
-              </div>
-            </div>
-            <div class="bg-light todo-box todo-pending collapse-content">
-              <h3 class="font-weight-light pt-2">Description</h3>
-              <h6 class="font-weight-lighter">
-                Finish last Sparta project for intern process
-              </h6>
-              <hr />
-              <h3 class="font-weight-light">Deadline</h3>
-              <h6 class="font-weight-lighter">03/29/2021</h6>
-            </div>
-          </div>
+        <div data-js="todo-pending" class="list col-lg-5 col-11 mx-auto"></div>
+
+        <div class="completed-sm list col-lg-5 col-11 mx-auto">
+          <h3>
+            <hr class="bg-success" />
+            Completed
+            <hr class="bg-success" />
+          </h3>
+        </div>
+        <div
+          data-js="todo-completed"
+          class="list col-lg-5 col-11 mt-5 mt-lg-0 mx-auto"
+        ></div>
       </div>
-      <div class="completed-sm list col-lg-5 col-11 mx-auto" >
-        <h3 class="font-weight-light">
-          <hr class="bg-success">
-           Completed 
-          <hr class="bg-success">
-        </h3>
-      </div>
-      <div
-        data-js="todo-completed"
-        class="list col-lg-5 col-11 mt-5 mt-lg-0 mx-auto"
-      ></div>
     </div>
     <div data-js="popup" class="popup-wrapper">
       <div class="popup p-4">
